@@ -3,6 +3,8 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import type { Metadata } from "next";
 import "@/app/globals.css";
+import Header from '@/components/header';
+import Footer from '@/components/footer';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,7 +26,13 @@ export default async function RootLayout({children, params}: Props) {
   return (
     <html lang="en">
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+              <Header></Header>
+              <main>
+                  {children}
+              </main>
+              <Footer></Footer>
+          </NextIntlClientProvider>
       </body>
     </html>
   );
