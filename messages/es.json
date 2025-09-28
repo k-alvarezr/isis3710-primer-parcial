@@ -1,5 +1,19 @@
 {
   "HomePage": {
-    "title": "Hola mundo!"
+    "title": "Listado de Pokemon",
+    "detail": "Detalle del Pokemon",
+    "height": "Altura",
+    "weight": "Peso",
+    "abilities": "Habilidades",
+    "types": "Tipos"
+  },
+
+  "footer": {
+    "rightsReserved": "&copy; 2025 Pokémon. Todos los derechos reservados.",
+    "developedBy": "Desarrollado para: ISIS3710"
+  },
+
+  "pokemonDetail": {
+    "loadingError": "Error al cargar los detalles del Pokémon"
   }
 }
