@@ -97,7 +97,7 @@ const Home = () => {
 
   return (
     <div className="bg-[#D9E9FE]">
-      <h1 className="text-3xl text-center mb-6">{t('HomePage.title')}</h1> 
+      <h1 className="text-3xl text-center mb-6 font-bold">{t('HomePage.title')}</h1> 
 
       <div className="grid grid-cols-3 gap-6">
         {pokemons.map((pokemon) => (

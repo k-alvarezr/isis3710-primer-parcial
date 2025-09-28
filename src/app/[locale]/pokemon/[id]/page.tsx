@@ -40,7 +40,7 @@ const PokemonDetail = async ({ params }: { params: { id: string } }) => {
 
   return (
     <div className="bg-[#E0F5FF] min-h-screen py-8">
-      <h1 className="text-4xl text-center mb-6 text-black">
+      <h1 className="text-4xl text-center mb-6 text-black font-bold">
         {t('title', { name: pokemon.name })}
       </h1>
 
